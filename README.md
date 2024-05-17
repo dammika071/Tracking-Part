@@ -27,13 +27,12 @@ TrackInPart is an Android application for tracking expenses and income. It provi
 
 ## Code Structure
 
-- AddExpenseActivity.java`: Handles the functionality for adding new expenses or income.
-- DashboardActivity.java`: Displays the list of all transactions and provides a button to view the graphical representation.
-- PieChartActivity.java`: Shows a pie chart of total income, expenses, and balance.
-- DatabaseHelper.java`: Manages the SQLite database for storing financial transactions.
-- Expense.java`: Model class representing an expense or income entry.
-- ExpenseAdapter.java`: Adapter class for displaying transactions in a RecyclerView.
-- ExpenseDataSource.java`: Provides methods to interact with the database.
+- `AddExpenseActivity.java`: Handles the functionality for adding new expenses or income.
+- `DashboardActivity.java`: Displays the list of all transactions and provides a button to view the graphical representation.
+- `DatabaseHelper.java`: Manages the SQLite database for storing financial transactions.
+- `Expense.java`: Model class representing an expense or income entry.
+- `ExpenseAdapter.java`: Adapter class for displaying transactions in a RecyclerView.
+- `ExpenseDataSource.java`: Provides methods to interact with the database.
 
 ## Dependencies
 
